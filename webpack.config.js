@@ -59,6 +59,5 @@ module.exports = {
   },
   postcss: [
     require('autoprefixer'),
-    require('postcss-color-rebeccapurple')
   ],
 }
