@@ -16,6 +16,9 @@ Simple game made in React & Redux for my kid and me :)
 ### test
     npm test
 
+## DEMO
+[http://vgrbr.github.io/find-game/](http://vgrbr.github.io/find-game/)
+
 ## TODO
 
 - server side rendering
