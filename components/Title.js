@@ -1,4 +1,5 @@
 import React from 'react'
+import css from './Title.less'
 
 const Title = ({title}) => {
   return (

@@ -1,31 +1,32 @@
-.wrap {
-  display: flex;
-  align-items: stretch;
-  flex-flow: row wrap;
-}
 .item {
-  flex: 1 calc(~"50% - 22px");
-  margin: 10px;
+  align-content: center;
   border: 1px solid #ccc;
   border-radius: 5%;
   text-align: center;
+  display: flex;
+  flex-basis: 1;
+  justify-content: center;
+  margin: 10px;
   cursor: pointer;
-}
-.image {
-  height: calc(~"50% - 30px");
-  max-width: 100%;
+  width: calc(~"50% - 22px");
+
+  .image {
+    height: 21.5vw;
+    width: auto;
+  }
+
+  &.flash {
+    opacity: 0.1;
+  }
+
+  &.shake {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
 }
 
-.flash {
-  opacity: 0.1;
-}
-
-.shake {
-  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-  transform: translate3d(0, 0, 0);
-  backface-visibility: hidden;
-  perspective: 1000px;
-}
 
 @keyframes shake {
   10%, 90% {

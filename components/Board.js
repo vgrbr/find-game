@@ -1,10 +1,11 @@
 import React from 'react'
 import Item from './Item'
 import Restart from './Restart'
+import css from './Board.less'
 
 const Board = ({game, next, current, restart}) =>{
   return (
-    <div className="wrap">
+    <div className="board">
       {game.map((item) =>
         <Item key={item.id} item={item} next={next} current={current}/>
       )}

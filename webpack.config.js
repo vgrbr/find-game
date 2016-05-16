@@ -18,12 +18,6 @@ module.exports = {
     new webpack.optimize.OccurenceOrderPlugin(),
     new webpack.HotModuleReplacementPlugin(),
     new ExtractTextPlugin('style.css', { allChunks: true }),
-    new HtmlWebpackPlugin({
-      title: 'Find Objects Game',
-      template: 'index.ejs',
-      filename: 'index-new.html',
-      inject: 'body'
-    }),
     new webpack.DefinePlugin({
       "process.env": {
         NODE_ENV: JSON.stringify(process.env.NODE_ENV)

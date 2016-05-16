@@ -2,7 +2,6 @@ import React, {Component} from 'react'
 import Title from './Title'
 import Board from './Board'
 import { getActive } from '../lib/game'
-import css from './game.less'
 
 class Game extends Component {
   componentWillMount() {
