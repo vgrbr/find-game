@@ -115,6 +115,36 @@ export default {
         image: 'squirrel.png',
         completed: false,
       },
+      {
+        id: 20,
+        title: 'Where is superman?',
+        image: 'superman.png',
+        completed: false,
+      },
+      {
+        id: 21,
+        title: 'Where is spiderman?',
+        image: 'spiderman.png',
+        completed: false,
+      },
+      {
+        id: 22,
+        title: 'Where is the batman?',
+        image: 'batman.png',
+        completed: false,
+      },
+      {
+        id: 23,
+        title: 'Where is the thor?',
+        image: 'thor.png',
+        completed: false,
+      },
+      {
+        id: 24,
+        title: 'Where is the hulk?',
+        image: 'hulk.png',
+        completed: false,
+      }
     ],
     current: [],
     attempts: 0,
